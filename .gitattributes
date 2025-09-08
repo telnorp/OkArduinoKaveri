@@ -1,0 +1,38 @@
+# Normalize text files to LF
+* text=auto eol=lf
+
+# Arduino sketches
+*.ino text diff=cpp
+*.pde text diff=cpp
+
+# C/C++ source and headers
+*.c   text diff=cpp
+*.cpp text diff=cpp
+*.h   text diff=cpp
+*.hpp text diff=cpp
+
+# Scripts
+*.sh  text eol=lf
+*.bat text eol=crlf
+
+# Config and documentation
+*.txt text
+*.md  text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+
+# Binary files (no diffing)
+*.bin binary
+*.hex binary
+*.elf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary

@@ -3,5 +3,5 @@ void setup() {
 }
 
 void loop() {
-
+ delay(250); //Ok :)
 }
